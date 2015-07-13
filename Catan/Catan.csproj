@@ -65,7 +65,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogicLayer\GameGraph.cs" />
+    <Compile Include="LogicLayer\CatanGraph.cs" />
     <Compile Include="LogicLayer\GraphEdge.cs" />
     <Compile Include="LogicLayer\GraphField.cs" />
     <Compile Include="LogicLayer\GraphNode.cs" />

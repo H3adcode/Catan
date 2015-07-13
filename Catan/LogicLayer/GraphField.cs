@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Catan.LogicLayer {
     class GraphField : Place {
-        private GraphEdge[] edges;
-        private GraphNode[] nodes;
 
-        public GraphEdge[] Edges { get; set; }
-        public GraphNode[] Nodes { get; set; }
+        public GraphField() {
+            EdgeList = new List<GraphEdge>();
+            NodeList = new List<GraphNode>();
+        }
+
+        public List<GraphEdge> EdgeList { get; set; }
+        public List<GraphNode> NodeList { get; set; }
     }
 }
