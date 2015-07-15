@@ -69,7 +69,13 @@
     <Compile Include="LogicLayer\GraphEdge.cs" />
     <Compile Include="LogicLayer\GraphField.cs" />
     <Compile Include="LogicLayer\GraphNode.cs" />
+    <Compile Include="LogicLayer\Movement.cs" />
+    <Compile Include="LogicLayer\MovementCost.cs" />
+    <Compile Include="LogicLayer\MovementReceipe.cs" />
     <Compile Include="LogicLayer\Place.cs" />
+    <Compile Include="LogicLayer\PlaceType.cs" />
+    <Compile Include="LogicLayer\Token.cs" />
+    <Compile Include="LogicLayer\TokenType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
